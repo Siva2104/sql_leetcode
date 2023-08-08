@@ -1,0 +1,1 @@
+select Product.product_name,year,price from Sales s join Product on s.product_id = Product.product_id order by year desc
